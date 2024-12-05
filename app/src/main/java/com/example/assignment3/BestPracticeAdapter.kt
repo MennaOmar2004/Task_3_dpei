@@ -28,9 +28,9 @@ class BestPracticeAdapter:RecyclerView.Adapter<BestPracticeAdapter.ViewHolder> (
             binding.txtRating.text = cardItem.rating
             binding.image.setImageResource(cardItem.image)
 
-//            itemView.setOnClickListener {
-//                Toast.makeText(itemView.context,"Movies",Toast.LENGTH_SHORT).show()
-//            }
+            itemView.setOnClickListener {
+                Toast.makeText(itemView.context,"Movies",Toast.LENGTH_SHORT).show()
+            }
 
         }
     }
@@ -48,10 +48,6 @@ class BestPracticeAdapter:RecyclerView.Adapter<BestPracticeAdapter.ViewHolder> (
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.bind(itemList[position])
-//        holder.itemView.setOnClickListener{
-//            OnItemClickn?.onItemClick(itemList[position],position)
-//        }
-
     }
 
     override fun getItemCount(): Int = itemList.size
