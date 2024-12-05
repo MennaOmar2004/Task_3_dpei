@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Assignment3</string>
+    <string name="Sign_in">Sign In</string>
+    <string name="UserName">UserName</string>
+    <string name="Password">Password</string>
+    <string name="Enter_Password">Enter Password</string>
+    <string name="Enter_UserName">Enter UserName </string>
+    <string name="menu_item1">more</string>
+    <string name="user_input">Input</string>
+    <string name="welcome">Welcome :</string>
+    <string name="toolbar_name">MoviesApp</string>
+
+
+
+
+</resources>
